@@ -20,6 +20,7 @@ public class FlashCardGUI extends JFrame
         add(card);
 
         setVisible(true);
+        System.out.println("GUI Initialised");
     }
     
     public void setAnswer(int answer)
